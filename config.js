@@ -17,7 +17,7 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
+global.github=process.env.GITHUB|| "https://github.com/Dartondave/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/Dartondave/Suhail-Md/main/lib/assets/moJFsiW.jpeg" ; // SET LOGO FOR IMAGE 
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "𝔻𝔸ℝ𝕋𝕆ℕ_𝕄𝔻",
-  ownername:process.env.OWNER_NAME|| "It'x 𝔻𝔸ℝ𝕋𝕆ℕ",
+  ownername:process.env.OWNER_NAME|| "𝔻𝔸ℝ𝕋𝕆ℕ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -133,7 +133,7 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //style : process.env.STYLE || "2",  // put '1' & "2" here to check bot styles
   //readmessage:process.env.READ_MESSAGE|| "false",
   //warncount: process.env.WARN_COUNT || 3,
-  //userImages:process.env.USER_IMAGES|| "https://imgur.com/gallery/satoru-nY5WgLa, https://imgur.com/gallery/satoru-gojou-gif-GPnvY58",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
+  //userImages:process.env.USER_IMAGES|| "https://raw.githubusercontent.com/Dartondave/Suhail-Md/main/lib/assets/moJFsiW.jpeg",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
   //disablepm: process.env.DISABLE_PM || "false",
   //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   //readcmds:process.env.READ_COMMANDS|| "false", 
