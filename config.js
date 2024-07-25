@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Dartondave/Suhail-Md/main/lib/assets/sukuna.jpeg" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://raw.githubusercontent.com/Dartondave/Suhail-Md/main/lib/assets/gojo_power.gif" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "available" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
