@@ -12,6 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 1440 # Increase the timeout to 1440 minutes (24 hours)
 
     strategy:
       matrix:
